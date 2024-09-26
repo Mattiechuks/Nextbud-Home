@@ -1,0 +1,38 @@
+.slider {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+.slide > svg > {
+  border-radius: 32px 32px;
+}
+
+.sliderTrack {
+  display: flex;
+  width: calc(100px * 53);
+  animation: scroll 30s linear infinite;
+}
+
+.slide {
+  align-items: center;
+  width: 99%; 
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+  height: 50px;
+}
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(-10%);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-10%);
+  }
+}

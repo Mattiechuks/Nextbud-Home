@@ -1,0 +1,42 @@
+.primary {
+    color: #656565;
+  }
+  
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    color: black;
+  }
+  
+  .contact {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    color: black;
+
+  }
+  
+  .socials {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .image {
+    color: transparent;
+  }
+
+  @media (min-width: 640px) {
+    
+    .contact{
+        width: auto;
+    }
+    .links{margin-bottom: 0;}
+
+    .section{
+        flex-direction: column;
+    }
+  }
+
+
+  
