@@ -20,7 +20,7 @@ const Header: React.FC = () => {
               height="48"
               className="w-[200px] max-md:w-[150px]"
               style={{ color: 'transparent' }}
-              xlinkHref="/image/logo1.d6ac039b.svg"
+              xlinkHref="/../public/image/logo1.d6ac039b.svg"
             />
           </a>
         </Link>
